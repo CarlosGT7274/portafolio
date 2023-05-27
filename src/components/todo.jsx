@@ -4,6 +4,8 @@ import { UserContext } from '../context/UserContext.jsx'
 import { useNavigate } from 'react-router-dom'
 import ContactForm from './contactoform.jsx'
 import Projects from './proyectos.jsx'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -39,6 +41,17 @@ const IndexLayout = ({render}) => {
       <a className="p-1 rounded" href="#simple-list-item-1">sobre mi</a>
       <a className="p-1 rounded" href="#simple-list-item-2">Proyectos y logros</a>
       <a className="p-1 rounded" href="#simple-list-item-3">contacto</a>
+      <div className="sociales">
+  <a href="https://github.com/carlosGT7274" target="_blank" rel="noopener noreferrer">
+    <FontAwesomeIcon icon={faGithub} />
+  </a>
+  <a href="https://www.linkedin.com/in/carlos-gonzalez-931a82268/" target="_blank" rel="noopener noreferrer">
+    <FontAwesomeIcon icon={faLinkedin} />
+  </a>
+  <a href="https://www.instagram.com/lanegritaparker/" target="_blank" rel="noopener noreferrer">
+    <FontAwesomeIcon icon={faInstagram} />
+  </a>
+</div>
     </div>
   </div>
   <div className="col-8">
