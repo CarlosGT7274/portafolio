@@ -99,12 +99,12 @@ body {
 
 .p-1{
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 .p-1:hover{
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 .col-4{
@@ -419,3 +419,22 @@ footer span {
     top: 3px;
   }
 }
+
+#simple-list-example{
+  padding: 50px;
+}
+
+#simple-list-item-1{
+  padding-top: 50px;
+}
+
+.manuscrita {
+  font-style: italic;
+  padding-bottom: 150px;
+}
+
+.autor {
+  font-size: 18px;
+  font-style: italic;
+}
+
