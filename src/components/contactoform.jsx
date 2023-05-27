@@ -20,7 +20,7 @@ const ContactForm = () => {
   return (
    <form className="my-form">
       <div className="container">
-        <h1>Get in touch!</h1>
+        <h1>Contactame </h1>
         <ul>
           <li>
             <div className="grid grid-2">
